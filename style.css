@@ -160,12 +160,15 @@ body{
     .invoice{
         padding: 28px;
     }
-        #quantity, #price, #amount {
+
+    #quantity, #price, #amount {
         margin: 0;
         padding: 0;
     }
     #totals {
+        /* width: 100%; */
         display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr;  */
     }
 }
 
