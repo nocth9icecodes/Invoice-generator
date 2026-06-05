@@ -4,9 +4,9 @@
   
     row.innerHTML = `
         <td><input type="text" placeholder="Item description" ></td>
-        <td><input type="number" class="qty" ></td>
-        <td><input type="number" class="price" ></td>
-        <td><input type="number" class="amount" readonly></td>
+        <td><input type="number" class="qty" id="quantity"></td>
+        <td><input type="number" class="price" id="price"></td>
+        <td><input type="number" class="amount" id="amount" readonly></td>
         <td>
             <button class="btn remove-btn" onclick="removeRow(this)">
                 X
