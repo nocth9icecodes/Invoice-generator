@@ -147,7 +147,7 @@ body{
 }
 
 @media screen and (max-width: 576px){
-    .invoice-head-top, .invoice-head-middle, .invoice-head-bottom{
+    .invoice-head-top, .invoice-head-middle, .invoice-head-bottom, #totals{
         grid-template-columns: repeat(1, 1fr);
     }
     .invoice-head-bottom-right{
